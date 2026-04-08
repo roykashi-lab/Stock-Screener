@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import { ScreenerFilters, DEFAULT_FILTERS } from "../types";
+import { ScreenerFilters } from "../types";
 
 interface FilterPanelProps {
   filters: ScreenerFilters;

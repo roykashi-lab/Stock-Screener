@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import { StockDetailResponse, NewsItem } from "../types";
 import { getStockDetail } from "../services/api";
-import { formatCompact, formatPct, formatPrice, formatNumber, pctClass } from "../services/format";
+import { formatCompact, formatPct, formatPrice, pctClass } from "../services/format";
 import {
   ResponsiveContainer, AreaChart, Area, XAxis, YAxis, Tooltip, CartesianGrid,
   BarChart, Bar,
